@@ -1,7 +1,7 @@
 ---
 title: "Paper review"
 layout: archive
-permalink: /paperReview
+permalink: /paperreview
 sidebar:
     nav: "sidebar-category"
 ---
