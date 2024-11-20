@@ -10,7 +10,10 @@ categories:
 
 </p>
 
-Enchanter: <https://bluesparrow2000.github.io/Enchanter/>
+[Enchanter][gamelink]
+
+[gamelink]: [https://google.com "Go google"](https://bluesparrow2000.github.io/Enchanter/)
+
 
 
 <p align="center">
