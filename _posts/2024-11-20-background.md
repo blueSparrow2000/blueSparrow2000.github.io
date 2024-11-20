@@ -7,7 +7,11 @@ comments: true
 
 # Manifold hypothesis
 
- * 메니폴드 그림 이미지
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/b8569d05-a584-419a-8d37-a2e526cb8f32" width="50%" height="50%" alt="default" />
+  <br>
+  <em>국소적으로 평면인 다양체</em>
+</p>
 
 '세상의 모든 데이터는 고차원 공간 안의 저차원 매니폴드 위에 존재한다'는 딥러닝의 근본적인 가정이다.
 딥러닝은 데이터를 가장 잘 설명하는 곡면을 찾는다. 즉 데이터들이 어떤 구조를 가진 부드러운 곡면 위에 존재하므로 딥러닝을 사용하면 그 근서적인 구조를 데이터로부터 학습해 낼 수 있다는 것이다.
@@ -20,7 +24,9 @@ comments: true
   
 # Training
 
- * 훈련 과정 이미지 모식도
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/072b1bb2-4dfc-4df3-b888-258de756c37e" width="50%" height="50%" alt="default" />
+</p>
 
 딥러닝 모델을 학습시키는 과정이다. 주로 forward pass, back propagation으로 이루어져 있으며, 모델을 테스트 할때는 forward pass만 수행하면 된다.
 학습시에는 데이터로부터 표현을 학습하기 위해 예측과 개선을 반복한다.
@@ -46,7 +52,9 @@ grad(loss,w_i) 를 구하면 각각의 가중치를 얼마나 더해야 가장 �
 
 적절한 훈련정도를 찾기 위해 훈련데이터의 일부를 검증 데이터로 분리하여 마치 처음보는 데이터인냥 모델의 일반화 성능을 검증하는데 사용할 수 있다.
 
-* 과소적핮 최적합 과댜적합 그래프 이미지
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/875265e4-bf75-4106-bf1c-3b9c6efac8d7" width="50%" height="50%" alt="default" />
+</p>
 
 최적적합은 최적화와 일반화가 모두 잘 되었을때이다. 최적적합에 도달하려면 훈련손실은 계속 감소하는데 검증손실이 증가해야 한다. 
 즉, 훈련데이터에 과도하게 학습되어 봐야 언제 멈춰야 하는지 알 수 있고, 이때 과대적합된 상태를 overfitting되었다고 한다.
