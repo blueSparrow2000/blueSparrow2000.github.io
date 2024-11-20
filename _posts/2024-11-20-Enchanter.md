@@ -8,7 +8,7 @@ categories:
 <p align="center">
   My first unity game
   <br/>
-  <https://bluesparrow2000.github.io/Enchanter/>
+  Enchanter: <https://bluesparrow2000.github.io/Enchanter/>
 </p>
 
 
