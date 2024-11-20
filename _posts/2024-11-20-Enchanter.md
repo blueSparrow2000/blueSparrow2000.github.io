@@ -7,6 +7,8 @@ categories:
 
 <p align="center">
   My first unity game
+  <br/>
+  [Enchanter][paperlink]
 </p>
 
 <p style="text-align:center;">[Enchanter][paperlink]</p>
