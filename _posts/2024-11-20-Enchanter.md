@@ -8,9 +8,11 @@ categories:
 <p align="center">
   My first unity game
   <br/>
-  [Enchanter][paperlink]
-</p>
+[Enchanter][paperlink]
+
 [paperlink]:https://bluesparrow2000.github.io/Enchanter/ 
+</p>
+
 
 
 
