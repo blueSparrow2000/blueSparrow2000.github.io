@@ -14,8 +14,7 @@ categories:
 </p>
 
 
-<br/>
-<br/>
+
 
 <p align="center">
   Flappy bird을 모티브로 한 점핑게임 입니다.
