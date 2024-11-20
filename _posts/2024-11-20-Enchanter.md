@@ -12,7 +12,7 @@ categories:
 
 [Enchanter][gamelink]
 
-[gamelink]: [https://google.com "Go google"](https://bluesparrow2000.github.io/Enchanter/)
+[gamelink]: https://bluesparrow2000.github.io/Enchanter/
 
 
 
