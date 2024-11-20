@@ -16,11 +16,11 @@ main:
     url: /year-archive/
 sidebar-category:
   - title: "Categories"
-  children:
-    - title: "Paper review"
-    url: /paperReview
-    - title: "Games"
-    url: /game
+    children:
+      - title: "Paper review"
+        url: /paperReview
+      - title: "Games"
+        url: /game
 
 
   
