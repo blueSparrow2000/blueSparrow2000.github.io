@@ -5,8 +5,10 @@ categories:
   - game
 ---
 
+<p align="center">
+  My first unity game
+</p>
 
-<p style="text-align:center;">My first unity game</p>
 <p style="text-align:center;">[Enchanter][paperlink]</p>
 
 
