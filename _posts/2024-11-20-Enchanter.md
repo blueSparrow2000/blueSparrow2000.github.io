@@ -7,15 +7,10 @@ categories:
 
 <p align="center">
   My first unity game
-  <br/>
-  Enchanter: <https://bluesparrow2000.github.io/Enchanter/>
+
 </p>
 
-
-<p align="center">
-  
-</p>
-
+Enchanter: <https://bluesparrow2000.github.io/Enchanter/>
 
 
 <p align="center">
