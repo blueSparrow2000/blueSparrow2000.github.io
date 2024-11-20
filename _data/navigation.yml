@@ -18,7 +18,7 @@ sidebar-category:
   - title: "Categories"
     children:
       - title: "Paper review"
-        url: /paperReview
+        url: /paperreview
       - title: "Games"
         url: /game
 
