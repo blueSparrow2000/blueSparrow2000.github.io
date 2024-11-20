@@ -2,6 +2,8 @@
 title: "Games"
 layout: archive
 permalink: /game
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
