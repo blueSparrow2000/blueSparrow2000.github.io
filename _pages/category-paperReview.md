@@ -2,6 +2,8 @@
 title: "Paper review"
 layout: archive
 permalink: /paperReview
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
