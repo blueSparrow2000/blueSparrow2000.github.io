@@ -2,7 +2,7 @@
 layout: post
 title: "ML background"  # 페이지 타이틀
 post-order: 4                               # (내 커스텀 변수) 같은 카테고리 내 정렬 순서
-comments: true
+# comments: true
 ---
 
 # Manifold hypothesis
