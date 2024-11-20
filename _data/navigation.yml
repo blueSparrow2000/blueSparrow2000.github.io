@@ -10,11 +10,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Categories"
-    url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Year"
     url: /year-archive/
+sidebar-category:
+  - title: "Categories"
+  children:
+    - title: "Paper review"
+    url: /paperReview
+    - title: "Games"
+    url: /game
+
 
   
