@@ -72,15 +72,15 @@ NCSN(noise conditioned score network)는 langervin dynamics라는 물리 역학�
 
 # Relation to other generic models
 
-## VAE 
-### Variational Auto Encoder
+### VAE 
+#### Variational Auto Encoder
 확산모델도 VAE처럼 입력을 잠재공간으로 보낸다. 두 방식 모두 data likelihood의 하한(lower bound)을 손실함수로 사용한다.
 두 모델의 가장 큰 차이점은 입력을 잠재공간으로 보내는 과정에 있다. 확산모델의 reverse stage는 VAE의 decoding처럼 잠재공간의 데이터를 원래 공간으로 보내도록 학습한다. 그러나 VAE의 encoding이 잠재공간으로 보내는 대응관계(mapping)을 학습하는것에 반해, 확산모델의 forward stage는 입력에 가우시안 노이즈를 추가하는 과정으로 mapping을 학습하지 않는다. 
 즉, VAE의 latent space에는 데이터가 의미있는 정보를 가지고 있지만, 확산모델의 latent space에는 노이즈로 인해 파괴된 의미없는 정보가 있다.
 
 
-## GAN
-### Generative Adversarial Network
+### GAN
+#### Generative Adversarial Network
 GAN은 확산모델보다 학습이 더 어렵고, mode collapse가 발생할 위험이 있다. 확산모델은 반대로 학습과정이 안정적이고, 타 likelihood model처럼 더 다양한 출력이 나온다.
 그러나 확산모델은 inference과정에서 GAN보다 시간이 많이 소요되는 단점이 있다.
 
