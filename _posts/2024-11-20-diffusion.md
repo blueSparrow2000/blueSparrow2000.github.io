@@ -43,8 +43,6 @@ categories:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4fb14699-3c60-4d63-b070-1d3bd8a2f897" width="100%" height="100%" alt="default" />
-  <br>
-  <em>확산모델의 구조</em>
 </p>
 
 노이지 이미지와 확산 단계(diffusion step) 정보를 입력으로 받아 노이즈를 예측한다.
