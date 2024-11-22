@@ -21,7 +21,11 @@ categories:
 확산모델은 이미지 생성(image generation), 고화질 변환(super resoluton), 부분 복원(inpainting), 분할(segmentation) 등 다양한 용도로 사용할 수 있다. 확산모델이 다양하게 사용할 수 있는건 모두 이미지의 구조(image manifold)를 학습할 수 있기 때문이다. 잡음을 진짜같은 이미지로 만드는 확산모델의 원리를 알아보자.
 
 
-* 확산과 노이즈 비교 이미지
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3227d82-0154-4760-83bd-12e426f776f7" width="100%" height="100%" alt="default" />
+  <br>
+  <em>이미지에서의 확산</em>
+</p>
 
 한 곳에 모인 기체 분자가 확산하면 금방 사방으로 퍼져 처음 상태를 알기 힘들게 된다. 
 처음 상태를 예측하기 위해서는 매 시간간격마다 한 입자가 어느 위치에서 이동했을지를 알아야 한다.
