@@ -5,11 +5,7 @@ categories:
   - game
 ---
 
-<p align="center">
-  My first unity game
-
-</p>
-
+My first unity game: 
 [Enchanter][gamelink]
 
 [gamelink]: https://bluesparrow2000.github.io/Enchanter/
