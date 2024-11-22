@@ -75,7 +75,11 @@ NCSN(noise conditioned score network)는 langervin dynamics라는 물리 역학�
 
 아래와 같이 세가지 방식은 forward stage와 reverse stage가 유사하다.
 
-* 각 stage
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e1da5d5-efaa-402f-8041-bda202d537e9" width="100%" height="100%" alt="default" />
+  <br>
+  <em>세 방식의 확산모델 공식</em>
+</p>
 
 <br/>
 
