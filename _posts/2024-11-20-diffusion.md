@@ -15,6 +15,7 @@ categories:
 
 [paperlink]:https://arxiv.org/abs/2209.04747
 
+<br/>
 
 # Diffusion 
 
@@ -29,6 +30,7 @@ categories:
 
 이렇게 얻은 확산모델은 사용자의 입력을 바탕으로 노이즈를 예측하여 원하는 이미지를 생성하는데 쓸 수도 있다.
 
+<br/>
 
 # Models
 확산모델의 기본 구조는 다음과 같다.
@@ -54,7 +56,7 @@ Latent Diffusion Model(LDM)은 이 문제를 개선하였다.
 
 LDM은 다른 포스트에서 따로 소개한다.
 
-
+<br/>
 
 # Generic framework
 
@@ -69,9 +71,11 @@ NCSN(noise conditioned score network)는 langervin dynamics라는 물리 역학�
 
 아래와 같이 세가지 방식은 forward stage와 reverse stage가 유사하다.
 
+* 각 stage
+
+<br/>
 
 # Relation to other generic models
-
 ### VAE 
 #### Variational Auto Encoder
 확산모델도 VAE처럼 입력을 잠재공간으로 보낸다. 두 방식 모두 data likelihood의 하한(lower bound)을 손실함수로 사용한다.
