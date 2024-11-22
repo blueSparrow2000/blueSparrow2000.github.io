@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "PinguGradient"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "SSH"
+name                     : PinguGradient"
 description              : "An amazing website."
 url                      : "https://blueSparrow2000.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "SSH"
+  name             : "blueSparrow"
   avatar           : "assets/jellyGhost.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "CS student"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "amadeus@kaist.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
