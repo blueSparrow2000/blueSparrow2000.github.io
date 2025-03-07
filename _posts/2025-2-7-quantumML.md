@@ -7,9 +7,9 @@ categories:
   - paperreview
 ---
 
-[][paperlink]
+[Quantum Machine Learning][paperlink]
 
-[paperlink]:
+[paperlink]:https://arxiv.org/abs/1611.09347
 
 위 논문을 살펴본다. 
 
