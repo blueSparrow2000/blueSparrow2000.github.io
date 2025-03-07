@@ -7,9 +7,9 @@ categories:
   - paperreview
 ---
 
-[][paperlink]
+[Curiosity-driven Exploration by Self-supervised Prediction][paperlink]
 
-[paperlink]:
+[paperlink]:https://arxiv.org/abs/1705.05363
 
 위 논문을 살펴본다. 
 
