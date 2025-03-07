@@ -7,9 +7,9 @@ categories:
   - paperreview
 ---
 
-[][paperlink]
+[Growing Neural Cellular Automata][paperlink]
 
-[paperlink]:
+[paperlink]:https://distill.pub/2020/growing-ca/
 
 위 논문을 살펴본다. 
 
