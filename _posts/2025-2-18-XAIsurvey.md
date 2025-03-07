@@ -7,9 +7,9 @@ categories:
   - paperreview
 ---
 
-[][paperlink]
+[Explainable Artificial Intelligence: A Survey of Needs, Techniques, Applications, and Future Direction][paperlink]
 
-[paperlink]:
+[paperlink]:https://arxiv.org/abs/2409.00265
 
 위 논문을 살펴본다. 
 
