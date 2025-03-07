@@ -7,9 +7,9 @@ categories:
   - paperreview
 ---
 
-[][paperlink]
+[Guiding a Diffusion Model with a Bad Version of Itself][paperlink]
 
-[paperlink]:
+[paperlink]:https://arxiv.org/abs/2406.02507
 
 위 논문을 살펴본다. 
 
