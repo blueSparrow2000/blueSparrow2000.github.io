@@ -7,18 +7,16 @@ categories:
   - paperreview
 ---
 
-1)   
-[Curiosity-driven Exploration by Self-supervised Prediction][paperlink]
+[Curiosity-driven Exploration by Self-supervised Prediction][paperlink]^1
 
 [paperlink]:https://arxiv.org/abs/1705.05363
 
-2)   
-[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink]
+[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink]^2
 
 [paperlink]:https://arxiv.org/abs/2206.08332
 
-3)    
-[Curiosity in Hindsight][paperlink]
+
+[Curiosity in Hindsight][paperlink]^3
 
 [paperlink]:https://arxiv.org/abs/2211.10515
 
