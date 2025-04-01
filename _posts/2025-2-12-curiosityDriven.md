@@ -39,7 +39,8 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 ## Intrinsic Curiosity Module (ICM)
 이를 극복하기 위해 내적 동기부여 (intrinsic motivation)를 주자는 의견이 나왔으며, 대표적인 예시가 호기심(curiosity)이다. 
 보상을 환경으로부터 주어지는 외적 보상과 Agent가 스스로 주는 내적 보상으로 나누어 보상이 듬성듬성 주어지는 상황을 극복한다. 
-<sup>1<sup> 논문에서는 호기심을 '예측값과 실제 값의 차이'로 정의한다. 
+<sup>1<sup> 
+논문에서는 호기심을 '예측값과 실제 값의 차이'로 정의한다. 
 즉, 현재 상태와 그 상태에서의 행동을 입력받아 다음 상태를 예측하고, 실제 다음 상태와 차이를 비교하여 자신이 얼마나 다음 상태를 잘 예측했는지 보는 것이다. 
 만약 그 차이가 크다면 아직 Agent가 그 환경을 제대로 알지 못한 것이므로, 호기심을 가지고 더 학습을 해보아야 한다고 판단한다.
 이를 ICM (Intrinsic Curiosity Module)이라고 한다. 
@@ -58,7 +59,8 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 즉, agent가 환경을 이해했다는 것을 예측과 실제 값의 차이로 파악하기 위해서는 확률적인 요인을 배제한 후 비교해야 한다. 
 회고변수를 알 수 있다면, 확률적 요인을 제거한 후 agent의 예측과 실제 값을 비교하여 얼마나 환경을 잘 이해했느를 따질 수 있다! 
 
-<sup>1<sup> 논문에서는 random noise가 있는 환경에서의 학습을 극복하기 위해 회고 변수를 도입하고 모델을 예측하는 새로운 보상구조를 제안한다. 
+<sup>2<sup> 
+논문에서는 random noise가 있는 환경에서의 학습을 극복하기 위해 회고 변수를 도입하고 모델을 예측하는 새로운 보상구조를 제안한다. 
 intrinsic reward = reconstruction error + invariance error    
 reconstruction error는 Agent가 현재 state, action 그리고 이전의 회고변수로부터 다음 state를 얼마나 잘 예측하느냐로, 기존의 curiosity와 유사한 개념이다. 
 invariance error는 회고변수가 순수한 noise만 포함하도록, 즉 회고변수가 Agent의 상태와 행동에 얼마나 무관한지를 측정한다.
