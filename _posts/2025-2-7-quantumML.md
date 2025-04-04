@@ -29,6 +29,6 @@ PCA나 SVM도 expomential speedup이 가능하다.
 현재 2000큐비트 정도의 quantum annealer는 개발이 되어 있으며, 앞으로 일반적인 양자 컴퓨터가 나오면 강화학습 등에 효과적으로 적용할 수 있을것이라 한다.
 
 
-#discussion
+# discussion
 양자컴퓨터를 강화학습에 특벌히 적용할 수 있다는 점이 신기했다. 어떻게 적용할 수 있을지 기대된다!
 
