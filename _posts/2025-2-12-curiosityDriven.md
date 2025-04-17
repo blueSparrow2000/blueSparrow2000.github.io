@@ -56,12 +56,16 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 BYOL은 주로 world model을 학습하는데 사용된다. 강화학습은 누적보상을 최대화하는 정책(policy)을 얻는걸 목표로 하므로, world model을 학습하는 동시에 좋은 탐색정책을 찾는 두마리 토끼를 동시에 잡는 방법이다.
 ICM처럼 BYOL Agent가 예측한 world model과 실제 model의 차이가 큰 상태를 우선적으로 탐색하도록 가중치를 부여한다. 이 차이를 줄여나갈수록 world model이 잘 학습되었다고 볼 수 있다.
 BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 구성된다:    
-1. action을 latent로 변환하는 encoder f_$\{theta}$
+1. action을 latent로 변환하는 encoder 
 2. agent의 state representation을 구하는 closed loop RNN cell
 3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
 4. 위의 state를 통해 관측값을 예상하는 predictior
 5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder
+4와 5의 차이를 uncertainty라 하며, 이 값이 curiosity에 해당한다. 
 
+BYOL은 batch 단위로 학습하며, uncertainty의 non-stationarity를 방지하기 위해 batch의 std deviation을 나눠주는 reward normalization을 수행한다.   
+또한, uncertainty를 바로 사용하지 않고 평균을 뺀 후 양의 값으로 clipping을 하여 사용함으로써 world model을 우선적으로 학습한 후 보상을 최대화하도록 만든다. 
+이를 reward prioritization이라고 한다. 
 
 
 
@@ -83,7 +87,7 @@ intrinsic reward = reconstruction error + invariance error
 reconstruction error는 Agent가 현재 state, action 그리고 이전의 회고변수로부터 다음 state를 얼마나 잘 예측하느냐로, 기존의 curiosity와 유사한 개념이다. 
 invariance error는 회고변수가 순수한 noise만 포함하도록, 즉 회고변수가 Agent의 상태와 행동에 얼마나 무관한지를 측정한다.
 
-모델은 가장 최신 모델인 Byol-Explore를 개선한 Byol-Hindsight를 사용하였다.
+모델은 최신 모델인 Byol-Explore를 개선한 Byol-Hindsight를 사용하였다.
 
 
 # discussion
