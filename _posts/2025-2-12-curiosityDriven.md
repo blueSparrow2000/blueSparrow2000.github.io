@@ -52,14 +52,22 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 환경으로부터 주어지는 보상을 최대화하면서 (exploitation) 내적인 동기부여를 통해 탐색을 (exploration) 촉진하는 균형잡힌 모델로 sparse reward 상황을 극복하는 방법이다.
 
 
-
 ## BYOL-Explore
+BYOL은 주로 world model을 학습하는데 사용된다. 강화학습은 누적보상을 최대화하는 정책(policy)을 얻는걸 목표로 하므로, world model을 학습하는 동시에 좋은 탐색정책을 찾는 두마리 토끼를 동시에 잡는 방법이다.
+ICM처럼 BYOL Agent가 예측한 world model과 실제 model의 차이가 큰 상태를 우선적으로 탐색하도록 가중치를 부여한다. 이 차이를 줄여나갈수록 world model이 잘 학습되었다고 볼 수 있다.
+BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 구성된다:    
+1. action을 latent로 변환하는 encoder f_{$$\theta$$}
+2. agent의 state representation을 구하는 closed loop RNN cell
+3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
+4. 위의 state를 통해 관측값을 예상하는 predictior
+5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder
+
 
 
 
 
 ## Curiosity in Hindsight (Byol-Hindsight)
-하지만 ICM은 random noise가 있는 환경(stochastic environment)에 매우 취약하다는 한계가 있다. 
+하지만 ICM 및 BYOL-Explore은 random noise가 있는 환경(stochastic environment)에 매우 취약하다는 한계가 있다. 
 환경에 본질적으로 예측할 수 없는 요인이 있는 경우, 그 근방에서 몇 번 탐색하던 curiosity값이 크기 때문에 오히려 탐색을 방해하는 요인이 된다. (curiosity loop 현상) 
 또한, 예측이 틀렸다 해도(큰 curiosity값) 그게 agent가 환경을 제대로 이해하지 못했다고 말할 수도 없다. 
 
