@@ -12,7 +12,12 @@ categories:
 [paperlink]:https://arxiv.org/abs/1705.05363
 
 
-[Curiosity in Hindsight][paperlink]<sup>2<sup>
+[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink]<sup>2<sup>
+
+[paperlink]:https://arxiv.org/abs/2206.08332
+
+
+[Curiosity in Hindsight][paperlink]<sup>3<sup>
 
 [paperlink]:https://arxiv.org/abs/2211.10515
 
@@ -47,6 +52,12 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 환경으로부터 주어지는 보상을 최대화하면서 (exploitation) 내적인 동기부여를 통해 탐색을 (exploration) 촉진하는 균형잡힌 모델로 sparse reward 상황을 극복하는 방법이다.
 
 
+
+## BYOL-Explore
+
+
+
+
 ## Curiosity in Hindsight (Byol-Hindsight)
 하지만 ICM은 random noise가 있는 환경(stochastic environment)에 매우 취약하다는 한계가 있다. 
 환경에 본질적으로 예측할 수 없는 요인이 있는 경우, 그 근방에서 몇 번 탐색하던 curiosity값이 크기 때문에 오히려 탐색을 방해하는 요인이 된다. (curiosity loop 현상) 
@@ -59,7 +70,7 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 즉, agent가 환경을 이해했다는 것을 예측과 실제 값의 차이로 파악하기 위해서는 확률적인 요인을 배제한 후 비교해야 한다. 
 회고변수를 알 수 있다면, 확률적 요인을 제거한 후 agent의 예측과 실제 값을 비교하여 얼마나 환경을 잘 이해했느를 따질 수 있다! 
 
-2번 논문에서는 random noise가 있는 환경에서의 학습을 극복하기 위해 회고 변수를 도입하고 모델을 예측하는 새로운 보상구조를 제안한다. 
+3번 논문에서는 random noise가 있는 환경에서의 학습을 극복하기 위해 회고 변수를 도입하고 모델을 예측하는 새로운 보상구조를 제안한다. 
 intrinsic reward = reconstruction error + invariance error    
 reconstruction error는 Agent가 현재 state, action 그리고 이전의 회고변수로부터 다음 state를 얼마나 잘 예측하느냐로, 기존의 curiosity와 유사한 개념이다. 
 invariance error는 회고변수가 순수한 noise만 포함하도록, 즉 회고변수가 Agent의 상태와 행동에 얼마나 무관한지를 측정한다.
@@ -73,12 +84,6 @@ Sparse reward 인 상황의 대표적인 문제 Montezuma's revenge를 굉장히
 그러나 내적 동기부여를 활용해 이를 극복할 수 있다는 실마리가 보이는 것 같다. 
 향후 물리법칙을 실험과 관찰로 스스로 알아내는 Newton AI를 구현할 때 생각해 보면 좋을 시스템인것 같다. 
 
-
-
-* Byol-Explore
-[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink]<sup>3<sup>
-
-[paperlink]:https://arxiv.org/abs/2206.08332
 
 
 * Structural Causal Model (SCM)
