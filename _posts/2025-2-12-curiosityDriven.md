@@ -30,7 +30,7 @@ categories:
 ## 강화학습 
 강화학습은 주어진 환경에서 시행착오를 통해 누적보상을 최대화하도록 학습시키는 방식이다.
 이 방법은 인간이 직접 가르쳐주지 않고 인공지능이 스스로 해결책을 찾는다는 점에서 매력적이다.
-강화학습 시스템은 행동의 주체인 Agent와 주변 환경인 Environment로 구성되며, Agent는 자신의 state와 observation을 통해 action을 결정한다.
+강화학습 시스템은 행동의 주체인 Agent와 주변 환경인 Environment로 구성되며, Agent는 '자신의 현재 state'와 '환경으로부터 받아들인 정보인 observation'에 따라 action을 결정한다.
 Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적에 따라 사람이 설계해주어야 한다.
 예를들어, 가장 효율적인 교통신호 제어기를 만들기 위해 자동차가 원활하게 움직이면 (막히지 않으면) 보상을 주는 식으로 환경을 설계할 수 있다.
 이를통해 사람이 예상하지 못했던 방법이나, 사람이 생각한 방법보다 더 뛰어난 policy(행동)를 찾아낼 수 있다.
@@ -60,7 +60,7 @@ BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 
 2. agent의 state representation을 구하는 closed loop RNN cell
 3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
 4. 위의 state를 통해 관측값을 예상하는 predictior
-5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder
+5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder    
 4와 5의 차이를 uncertainty라 하며, 이 값이 curiosity에 해당한다. 
 
 BYOL은 batch 단위로 학습하며, uncertainty의 non-stationarity를 방지하기 위해 batch의 std deviation을 나눠주는 reward normalization을 수행한다.   
