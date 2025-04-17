@@ -60,7 +60,8 @@ BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 
 2. agent의 state representation을 구하는 closed loop RNN cell
 3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
 4. 위의 state를 통해 관측값을 예상하는 predictior
-5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder    
+5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder
+
 4와 5의 차이를 uncertainty라 하며, 이 값이 curiosity에 해당한다. 
 
 BYOL은 batch 단위로 학습하며, uncertainty의 non-stationarity를 방지하기 위해 batch의 std deviation을 나눠주는 reward normalization을 수행한다.   
