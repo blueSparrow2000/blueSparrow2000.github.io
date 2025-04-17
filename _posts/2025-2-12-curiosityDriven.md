@@ -67,11 +67,13 @@ BYOL은 batch 단위로 학습하며, uncertainty의 non-stationarity를 방지�
 또한, uncertainty를 바로 사용하지 않고 평균을 뺀 후 양의 값으로 clipping을 하여 사용함으로써 world model을 우선적으로 학습한 후 보상을 최대화하도록 만든다. 
 이를 reward prioritization이라고 한다. 
 
-
+BYOL은 기존의 RND나 ICM으로 해결하지 못한 문제를 해결할 수 있었으며, deterministic environment에서 더 높은 성능을 보였다.
+특히 강화학습으로 해결하기 어려운 sparse reward 문제를 모아둔 DM-HARD-8 도 '인간이 클리어한 플레이 기록' 없이도 양의 보상을 얻을 수 있었다. 
+그러나 아직 환경에 stochasity가 있거나 절차적으로 생성된 환경에서는 잘 학습되지 않는 문제가 있었다.
 
 
 ## Curiosity in Hindsight (Byol-Hindsight)
-하지만 ICM 및 BYOL-Explore은 random noise가 있는 환경(stochastic environment)에 매우 취약하다는 한계가 있다. 
+ICM 및 BYOL-Explore은 random noise가 있는 환경(stochastic environment)에 매우 취약하다는 한계가 있다. 
 환경에 본질적으로 예측할 수 없는 요인이 있는 경우, 그 근방에서 몇 번 탐색하던 curiosity값이 크기 때문에 오히려 탐색을 방해하는 요인이 된다. (curiosity loop 현상) 
 또한, 예측이 틀렸다 해도(큰 curiosity값) 그게 agent가 환경을 제대로 이해하지 못했다고 말할 수도 없다. 
 
