@@ -56,7 +56,7 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 BYOL은 주로 world model을 학습하는데 사용된다. 강화학습은 누적보상을 최대화하는 정책(policy)을 얻는걸 목표로 하므로, world model을 학습하는 동시에 좋은 탐색정책을 찾는 두마리 토끼를 동시에 잡는 방법이다.
 ICM처럼 BYOL Agent가 예측한 world model과 실제 model의 차이가 큰 상태를 우선적으로 탐색하도록 가중치를 부여한다. 이 차이를 줄여나갈수록 world model이 잘 학습되었다고 볼 수 있다.
 BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 구성된다:    
-1. action을 latent로 변환하는 encoder f_$\theta$  O($\sqrt{n}$)
+1. action을 latent로 변환하는 encoder f_$\{theta}$
 2. agent의 state representation을 구하는 closed loop RNN cell
 3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
 4. 위의 state를 통해 관측값을 예상하는 predictior
