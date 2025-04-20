@@ -24,9 +24,9 @@ state는 24방향 LiDAR 센서값과 가장 가까운 장애물까지의 거리�
 
 기준이 되는 보상(Baseline)은 목표 도달시 100, 장애물 충돌시 -50이라는 sparse reward를 준다.
 수정한 보상은 양/음 비율에 따라 3가지로 나뉜다. 보상 함수의 형태도 서로 다르다. (선형적으로 다르기만 하다면 학습에 차이가 없여야 하므로 유의미한 결과를 얻기 힘들었을 것이다)
-balance class (50:50)
-positive skewed class (72:28)
-negative skewed class (22:78)
+balance class (50:50)     
+positive skewed class (72:28)     
+negative skewed class (22:78)     
 
 학습에 유리하다는 것엔 두 가지 판단 척도를 두었다. 
 1. 더 빠르게 최적해로 수렴 (목표에 안정적으로 도달할때까지 epoch가 더 적음)
