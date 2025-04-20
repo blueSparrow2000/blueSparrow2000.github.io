@@ -51,6 +51,11 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 이를 ICM (Intrinsic Curiosity Module)이라고 한다. 
 환경으로부터 주어지는 보상을 최대화하면서 (exploitation) 내적인 동기부여를 통해 탐색을 (exploration) 촉진하는 균형잡힌 모델로 sparse reward 상황을 극복하는 방법이다.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebff8ca0-5857-4c7f-ae8b-fde9129ea9e1" width="100%" height="100%" alt="default" />
+  <br>
+  <em>ICM architecture</em>
+</p>
 
 ## BYOL-Explore
 BYOL은 주로 world model을 학습하는데 사용된다. 강화학습은 누적보상을 최대화하는 정책(policy)을 얻는걸 목표로 하므로, world model을 학습하는 동시에 좋은 탐색정책을 찾는 두마리 토끼를 동시에 잡는 방법이다.
@@ -61,6 +66,12 @@ BYOL은 RNN을 기반으로 만들었으며, 크게 아래의 5가지 파트로 
 3. world model prediction에 사용할 state representation을 구하는 open loop RNN cell
 4. 위의 state를 통해 관측값을 예상하는 predictior
 5. 실제 관찰된 observation을 의미있는 latent로 변환하는 EMA target encoder
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/61aebb9c-d309-4e2a-8d58-0efb8740ccff" width="100%" height="100%" alt="default" />
+  <br>
+  <em>BYOL-Explore architecture</em>
+</p>
 
 4와 5의 차이를 uncertainty라 하며, 이 값이 curiosity에 해당한다. 
 
@@ -91,7 +102,11 @@ reconstruction error는 Agent가 현재 state, action 그리고 이전의 회고
 invariance error는 회고변수가 순수한 noise만 포함하도록, 즉 회고변수가 Agent의 상태와 행동에 얼마나 무관한지를 측정한다.
 
 모델은 최신 모델인 Byol-Explore를 개선한 Byol-Hindsight를 사용하였다.
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27bd2a34-667d-4c55-b696-ea406c6e38ab" width="100%" height="100%" alt="default" />
+  <br>
+  <em>BYOL-Hindsight architecture</em>
+</p>
 
 # discussion
 Sparse reward 인 상황의 대표적인 문제 Montezuma's revenge를 굉장히 잘 해결하여 신기하였다. 
