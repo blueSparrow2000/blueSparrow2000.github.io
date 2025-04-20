@@ -36,7 +36,7 @@ negative skewed class (22:78)
 변동이 가장 적은 것은 음의 보상을 더 많이 준 경우로, 두가지 평가에서 모두 음의 보상 비율이 높을때가 다른 경우보다 학습에 더 유리하였다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/798c441f-68ca-4847-a56e-5a44baede129" width="100%" height="100%" alt="default" />
+  <img src="https://github.com/user-attachments/assets/798c441f-68ca-4847-a56e-5a44baede129" width="80%" height="80%" alt="default" />
   <br>
   <em>DQN Setting</em>
 </p>
