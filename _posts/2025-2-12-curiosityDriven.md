@@ -104,7 +104,7 @@ invariance error는 회고변수가 순수한 noise만 포함하도록, 즉 회�
 
 모델은 최신 모델인 Byol-Explore를 개선한 Byol-Hindsight를 사용하였다.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/27bd2a34-667d-4c55-b696-ea406c6e38ab" width="100%" height="100%" alt="default" />
+  <img src="https://github.com/user-attachments/assets/9b00eebe-969e-44ef-af14-173c15b1262e" width="100%" height="100%" alt="default" />
   <br>
   <em>BYOL-Hindsight architecture</em>
 </p>
