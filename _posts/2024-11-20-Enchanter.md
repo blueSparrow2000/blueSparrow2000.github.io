@@ -1,5 +1,6 @@
 ---
 layout: single # post
+classes: wide
 title:  "Enchanter"
 categories:
   - game
