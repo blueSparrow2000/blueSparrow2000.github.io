@@ -65,7 +65,7 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
 
 ## Random Network Distillation (RND)
 ICM으로 잘 해결되지 않는 Monetzuma's revenge와 같은 문제를 단순한 해법으로도 성능을 크게 향상시킬 수 있음을 보여준 논문이다.   
-ICM 과 마찬가지로 prediction error를 내적 보상(호기심)으로 사용한다. 내적 보상을 예측한 상태와 실제 상태의 차이가 아니라, 한 단계를 더 거쳐서 처리한다.    
+ICM 과 마찬가지로 prediction error를 내적 보상(참신함,novelty)으로 사용한다. 내적 보상을 예측한 상태와 실제 상태의 차이가 아니라, 한 단계를 더 거쳐서 처리한다.    
 관찰된 정보 (observation) 을 랜덤하게 초기화된 고정된 신경망에 넣어서 특정한 값을 뽑아낸다. 이 랜덤 신경망은 가중치가 변하지 않고 고정되어 있으며 agent의 학습이 영향을 미치지 않는다.   
 다른 학습되는 신경망인 predictor는 같은 input을 받아서 random network(target net) 과의 차이를 구하며, 이 값의 MSE가 호기심으로 사용된다. 
 또한, predictor가 target을 학습하는데에도 사용된다.   
@@ -75,6 +75,15 @@ ICM 과 마찬가지로 prediction error를 내적 보상(호기심)으로 사�
 (랜덤 네트워크가 아닌 그냥 난수생성기라면 predictor가 어떠한 규칙성을 학습할 수 없고, 다른 내적 보상을 줄이며 학습하다가 이전 내적보상이 다시 증가하게 될 수 있다)   
 3. target의 output이 충분히 랜덤하여, predictor가 바로 모든 값을 예측하는 일이 거의 일어나지 않아야 한다   
 
+내적 보상이 외적 보상에 비해 너무 크게 차이나지 않도록 보정하는 observation normalization을 수행하였다.
+
+이렇게 내적 보상을 추가하는 신경망을 하나 추가한 것 외의 기본적인 구조는 PPO(proximal policy optimization)모델을 사용하였다.
+
+rnd diagram img
+
+이 논문의 저자가 실험해보며 찾은 효율적인 방법들이 몇가지 있다. RNN 구조가 CNN구조를 사용한 것보다 외적 보상의 고점이 높았고, CNN은 더 안정적이었다.   
+또한, non-episodic 하게 학습한 것이 episodic(한 rollout이 끝나면 내적, 외적 보상 리셋) 하게 학습한 것보다 더 많은 방을 방문했다. Montezuma의 첫 스테이지는 총 24개의 방이 있으며 마지막 방에 도달하면 첫 스테이지를 클리어 한다. 따라서 방을 많이 방문할수록 잘 학습되었다고 볼 수 있다.   
+저자는 새로운 방을 방문하는것은 모든 학습과정에 걸쳐서 일어나는 것이기 때문에 non episodic 학습이 더 적절하다고 판단하였다.  
 
 
 
