@@ -63,6 +63,22 @@ Agent가 환경으로부터 얻는 가장 중요한 정보인 reward는 목적�
   <em>ICM architecture</em>
 </p>
 
+## Random Network Distillation (RND)
+ICM으로 잘 해결되지 않는 Monetzuma's revenge와 같은 문제를 단순한 해법으로도 성능을 크게 향상시킬 수 있음을 보여준 논문이다.   
+ICM 과 마찬가지로 prediction error를 내적 보상(호기심)으로 사용한다. 내적 보상을 예측한 상태와 실제 상태의 차이가 아니라, 한 단계를 더 거쳐서 처리한다.    
+관찰된 정보 (observation) 을 랜덤하게 초기화된 고정된 신경망에 넣어서 특정한 값을 뽑아낸다. 이 랜덤 신경망은 가중치가 변하지 않고 고정되어 있으며 agent의 학습이 영향을 미치지 않는다.   
+다른 학습되는 신경망인 predictor는 같은 input을 받아서 random network(target net) 과의 차이를 구하며, 이 값의 MSE가 호기심으로 사용된다. 
+또한, predictor가 target을 학습하는데에도 사용된다.   
+이렇게 학습하면 내적 보상이 가져야 하는 세 가지 조건을 충족한다:   
+1. 방문횟수가 많을수록 내적 보상이 감소해야 한다   
+2. target은 predictor가 학습할 수 있는 구조이어야 한다
+(랜덤 네트워크가 아닌 그냥 난수생성기라면 predictor가 어떠한 규칙성을 학습할 수 없고, 다른 내적 보상을 줄이며 학습하다가 이전 내적보상이 다시 증가하게 될 수 있다)   
+3. 
+
+
+
+
+
 ## BYOL-Explore
 BYOL은 주로 world model을 학습하는데 사용된다. 강화학습은 누적보상을 최대화하는 정책(policy)을 얻는걸 목표로 하므로, world model을 학습하는 동시에 좋은 탐색정책을 찾는 두마리 토끼를 동시에 잡는 방법이다.
 ICM처럼 BYOL Agent가 예측한 world model과 실제 model의 차이가 큰 상태를 우선적으로 탐색하도록 가중치를 부여한다. 이 차이를 줄여나갈수록 world model이 잘 학습되었다고 볼 수 있다.
