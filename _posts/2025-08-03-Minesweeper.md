@@ -1,7 +1,7 @@
 ---
 layout: single # post
 classes: wide
-title:  "Mine sweeper"
+title:  "Minesweeper"
 post order
 categories:
   - game
