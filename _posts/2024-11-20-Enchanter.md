@@ -16,17 +16,23 @@ Flappy bird을 모티브로 한 점핑게임 입니다.
 <br/>
 Unity WegGL로 배포하였습니다. 
 
+
 [Youtube][playlink]
 
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
 
-<h1>[ Update Notes ]</h1>
-2025.12.25 Comming soon!               
-- level up perk figure updated to Orb                   
-- New stages every ~~50~~ 20 wave                   
-- Add icons on level up screen                 
+<h5>[ Update Notes ]</h5>
+2025.12.25 Comming soon!              
+<br/>
+- level up perk figure updated to Orb   
+<br/>
+- New stages every ~~50~~ 20 wave 
+<br/>
+- Add icons on level up screen    
+<br/>
 - Enchant mechanism changed: ~~every three level up +1 lv~~ random chance of level up
+<br/>
 - Enchanted books now glow
 
 <p align="center">
