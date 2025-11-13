@@ -12,9 +12,9 @@ My first unity game:
 [gamelink]: https://bluesparrow2000.github.io/Enchanter/
 
 
-Flappy bird을 모티브로 한 점핑게임 입니다.
+A jumping game motivated by 'Flappy bird'
 <br/>
-Unity WegGL로 배포하였습니다. 
+Distributed by Unity WegGL 
 
 
 [Youtube][playlink]
