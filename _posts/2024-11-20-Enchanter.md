@@ -25,11 +25,11 @@ Unity WegGL로 배포하였습니다.
 <h3>[ Comming soon ]</h3>
 **2025.12.25**            
 <br/>
-- level up perk figure updated to Orb   
+- level up perk figure updated to Orb
 <br/>
-- New stages every ~~50~~ 20 wave 
+- New stages every ~~50~~ 20 wave
 <br/>
-- Add icons on level up screen    
+- Add icons on level up screen
 <br/>
 - Enchant mechanism changed: ~~every three level up +1 lv~~ random chance of level up
 <br/>
