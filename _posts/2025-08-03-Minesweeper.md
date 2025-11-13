@@ -13,9 +13,11 @@ A classic Unity game:
 
 [gamelink]: https://bluesparrow2000.github.io/MinesweeperBuild/
 
-간단한 지뢰찾기 게임입니다. 향후 테마를 추가할 예정입니다.
+A simple minesweeper game
 <br/>
-Unity WegGL로 배포하였습니다. 
+Press shift + hover to place an 'outpost', which shows you the number of mines in vertical & horozontal direction of the grid
+<br/>
+Distributed by Unity WegGL
 
 <p align="center">
 </p>
