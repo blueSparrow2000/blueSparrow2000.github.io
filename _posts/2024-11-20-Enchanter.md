@@ -25,15 +25,17 @@ Distributed by Unity WegGL
 <h3>[ Comming soon ]</h3>
 **2025.12.25 patch note**
 <br/>
-- level up perk figure updated to Orb
+- add new obstacles (two kinds)
 <br/>
 - New stages every ~~50~~ 20 wave
 <br/>
 - Add icons on level up screen
 <br/>
-- Enchant mechanism changed: ~~every three level up +1 lv~~ random chance of level up
+- Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade
 <br/>
 - Enchanted books now glow
+<br/>
+- level up perk figure changed to xp Orb
 
 <p align="center">
 </p>
