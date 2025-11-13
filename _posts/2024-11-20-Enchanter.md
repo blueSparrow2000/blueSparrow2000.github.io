@@ -22,8 +22,8 @@ Unity WegGL로 배포하였습니다.
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
 
-<h5>[ Update Notes ]</h5>
-2025.12.25 Comming soon!              
+<h3>[ Comming soon ]</h3>
+**2025.12.25**            
 <br/>
 - level up perk figure updated to Orb   
 <br/>
