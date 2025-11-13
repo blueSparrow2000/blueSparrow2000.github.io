@@ -23,7 +23,7 @@ Unity WegGL로 배포하였습니다.
 
 
 <h3>[ Comming soon ]</h3>
-**2025.12.25**            
+**2025.12.25 patch note**
 <br/>
 - level up perk figure updated to Orb
 <br/>
