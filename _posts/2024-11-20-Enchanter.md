@@ -7,9 +7,15 @@ categories:
 ---
 
 My first unity game: 
-[Enchanter][gamelink]
+[Enchanter Legacy][gamelink]
 
 [gamelink]: https://bluesparrow2000.github.io/Enchanter/
+
+<!--
+[Enchanter Beta][gamelink]
+
+[gamelink]: https://bluesparrow2000.github.io/EnchanterBeta/
+-->
 
 
 A jumping game motivated by 'Flappy bird'
@@ -25,17 +31,20 @@ Distributed by Unity WegGL
 <h3>[ Comming soon ]</h3>
 **2025.12.25 patch note**
 <br/>
-- add new obstacles (two kinds)
-<br/>
-- Add icons on level up screen
+- Added new obstacles (two kinds)
 <br/>
 - Enchanted books now glow
+           
+<br/>
+✓ Added ambient music and control setting
+<br/>
+✓ Add icons on level up screen
 <br/>
 ✓ New stages every ~~50~~ 20 wave
 <br/>
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade
 <br/>
-✓ level up perk figure changed to xp Orb
+✓ Level up perk figure changed to xp Orb
 
 <p align="center">
 </p>
