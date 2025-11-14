@@ -21,7 +21,7 @@ A jumping game motivated by 'Flappy bird'
 <br/>
 Distributed by Unity WegGL 
 
-
+Sample play: 
 [Youtube][playlink]
 
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
