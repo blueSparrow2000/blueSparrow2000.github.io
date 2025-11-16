@@ -37,15 +37,15 @@ Sample play:
 <br/>
 ✓ Enchanted books now glow
 <br/>
-✓ Added ambient music and control setting
+✓ Added settings to control sound on the main menu
 <br/>
 ✓ Added icons on level up screen
 <br/>
-✓ New stages every ~~50~~ 20 wave
+✓ New obstacles appear every ~~50~~ 20 th wave
 <br/>
-✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & fixed enchant variant for each books
+✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
-✓ Level up perk figure changed to xp Orb
+✓ Level up item changed from ink to xp Orb
 
 <h3>[ Comming soon ]</h3>
 - Special book: Christmas theme
