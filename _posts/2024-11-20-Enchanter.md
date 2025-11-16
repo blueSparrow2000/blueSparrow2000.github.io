@@ -7,7 +7,7 @@ categories:
 ---
 
 My first unity game: 
-[Enchanter Legacy][gamelink]
+[Play Enchanter][gamelink]
 
 [gamelink]: https://bluesparrow2000.github.io/Enchanter/
 
