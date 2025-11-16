@@ -30,7 +30,8 @@ Sample play:
 
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
-**2025.11.16 patch note**
+<h3>[ PATCH NOTES ]</h3>
+**2025.11.16 **
 <br/>
 ✓ Added new obstacles (sword & pickaxe)
 <br/>
@@ -50,7 +51,6 @@ Sample play:
 - Special book: Christmas theme
 <!--
 <br/>
-
 -->
 <p align="center">
 </p>
