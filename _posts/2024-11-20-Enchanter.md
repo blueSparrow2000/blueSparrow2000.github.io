@@ -11,7 +11,7 @@ My first unity game:
 
 [gamelink]: https://bluesparrow2000.github.io/EnchanterWeb/
 
-<p align="center">
+<p >
   <img src="https://github.com/user-attachments/assets/4f57707d-9861-41bd-8ebb-5911f3955412" width="50%" height="50%" alt="default" />
 </p>
 
