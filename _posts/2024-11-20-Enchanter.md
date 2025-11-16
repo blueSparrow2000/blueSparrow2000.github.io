@@ -11,6 +11,10 @@ My first unity game:
 
 [gamelink]: https://bluesparrow2000.github.io/EnchanterWeb/
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f57707d-9861-41bd-8ebb-5911f3955412" width="50%" height="50%" alt="default" />
+</p>
+
 <!--
 [Enchanter Beta][gamelink]
 
@@ -26,19 +30,11 @@ Sample play:
 
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
-
-<h3>[ Comming soon ]</h3>
-**2025.12.25 patch note**
+**2025.11.16 patch note**
 <br/>
-- Added new obstacles (two kinds)
+✓ Added new obstacles (sword & pickaxe)
 <br/>
-- Enchanted books now glow
-<!--
-<br/>
-- Added Special book: Christmas theme
--->
-
-           
+✓ Enchanted books now glow
 <br/>
 ✓ Added ambient music and control setting
 <br/>
@@ -50,5 +46,11 @@ Sample play:
 <br/>
 ✓ Level up perk figure changed to xp Orb
 
+<h3>[ Comming soon ]</h3>
+- Special book: Christmas theme
+<!--
+<br/>
+
+-->
 <p align="center">
 </p>
