@@ -9,7 +9,7 @@ categories:
 My first unity game: 
 [Play Enchanter][gamelink]
 
-[gamelink]: https://bluesparrow2000.github.io/Enchanter/
+[gamelink]: https://bluesparrow2000.github.io/EnchanterWeb/
 
 <!--
 [Enchanter Beta][gamelink]
