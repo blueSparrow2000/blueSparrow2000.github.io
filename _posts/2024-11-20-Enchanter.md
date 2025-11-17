@@ -47,7 +47,7 @@ Sample play:
 <br/>
 ✓ Added Help screen
 <br/>
-✓ Added infinite game mode **Beyond** which does not spawn soul torch (blue)
+✓ Added infinite game mode **'Beyond'** which does not spawn soul torch (blue)
 
 <h3>[ Comming soon ]</h3>
 - Special book: Christmas theme
