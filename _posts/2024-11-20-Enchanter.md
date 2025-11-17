@@ -47,10 +47,9 @@ Sample play:
 
 **2025.11.17**
 <br/>
-✓ Added Help screen       
+✓ Added Help screen
 <br/>
 ✓ Added infinite game mode **Beyond** which does not spawn soul torch (blue)
-
 
 <h3>[ Comming soon ]</h3>
 - Special book: Christmas theme
