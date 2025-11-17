@@ -15,12 +15,6 @@ My first unity game:
   <img src="https://github.com/user-attachments/assets/4f57707d-9861-41bd-8ebb-5911f3955412" width="50%" height="50%" alt="default" />
 </p>
 
-<!--
-[Enchanter Beta][gamelink]
-
-[gamelink]: https://bluesparrow2000.github.io/EnchanterBeta/
--->
-
 A jumping game motivated by 'Flappy bird'
 <br/>
 Distributed by Unity WegGL 
@@ -46,6 +40,12 @@ Sample play:
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
 ✓ Level up item changed from ink to xp Orb
+
+**2025.11.17**
+✓ Added Help screen
+<br/>
+✓ Added infinite game mode **Beyond** which does not spawn soul torch (blue)
+
 
 <h3>[ Comming soon ]</h3>
 - Special book: Christmas theme
