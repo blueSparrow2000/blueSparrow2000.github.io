@@ -25,7 +25,10 @@ Sample play:
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
 <h3>[ PATCH NOTES ]</h3>
+<br/>
+
 **2025.11.16**
+
 <br/>
 ✓ Added new obstacles (sword & pickaxe)
 <br/>
@@ -40,9 +43,11 @@ Sample play:
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
 ✓ Level up item changed from ink to xp Orb
+<br/>
 
 **2025.11.17**
-✓ Added Help screen
+<br/>
+✓ Added Help screen       
 <br/>
 ✓ Added infinite game mode **Beyond** which does not spawn soul torch (blue)
 
