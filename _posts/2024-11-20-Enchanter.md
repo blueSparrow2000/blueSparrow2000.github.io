@@ -43,7 +43,7 @@ Sample play:
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
 ✓ Level up item changed from ink to xp Orb
-<br/>
+<br/><br/>
 
 **2025.11.17**
 <br/>
