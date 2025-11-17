@@ -28,7 +28,6 @@ Sample play:
 <br/>
 
 **2025.11.16**
-
 <br/>
 ✓ Added new obstacles (sword & pickaxe)
 <br/>
