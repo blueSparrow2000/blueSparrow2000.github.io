@@ -25,7 +25,6 @@ Sample play:
 [playlink]: https://youtu.be/92fc6sl5HI4?si=Xdao95vPSqkrOk9U
 
 <h3>[ PATCH NOTES ]</h3>
-<br/>
 
 **2025.11.16**
 <br/>
