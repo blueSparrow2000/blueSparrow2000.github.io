@@ -47,7 +47,7 @@ Sample play:
 <br/>
 ✓ Added Help button on the main screen
 <br/>
-✓ Added infinite game mode **'Beyond'** which does not spawn soul torch (blue, instant death)
+✓ Added infinite game mode **'Beyond'** which does not spawn blue torch (instant death)
 
 <h3>[ Comming soon ]</h3>
 - Special book: Christmas theme with particle effects
