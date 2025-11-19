@@ -40,17 +40,17 @@ Sample play:
 <br/>
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
-✓ Level up item changed from ink to xp Orb
+✓ Level up item's appearence has changed from 'ink' to 'xp Orb'
 <br/><br/>
 
 **2025.11.17**
 <br/>
-✓ Added Help screen
+✓ Added Help button on the main screen
 <br/>
-✓ Added infinite game mode **'Beyond'** which does not spawn soul torch (blue)
+✓ Added infinite game mode **'Beyond'** which does not spawn soul torch (blue, instant death)
 
 <h3>[ Comming soon ]</h3>
-- Special book: Christmas theme
+- Special book: Christmas theme with particle effects
 <!--
 <br/>
 -->
