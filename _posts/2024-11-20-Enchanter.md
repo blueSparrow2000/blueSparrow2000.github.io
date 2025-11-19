@@ -28,7 +28,7 @@ Sample play:
 
 **2025.11.16**
 <br/>
-✓ Added new obstacles (sword & pickaxe)
+✓ Added new obstacle variants (sword & pickaxe)
 <br/>
 ✓ Enchanted books now glow
 <br/>
@@ -36,7 +36,7 @@ Sample play:
 <br/>
 ✓ Added icons on level up screen
 <br/>
-✓ New obstacles appear every ~~50~~ 20 th wave
+✓ New obstacles appear every ~~50~~ 20 pts
 <br/>
 ✓ Enchant mechanism changed: ~~every three level up +1 lv~~ +1 level per upgrade & each book variant has unique enchants
 <br/>
