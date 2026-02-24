@@ -8,24 +8,24 @@ categories:
   - paperreview
 ---
 
-[Curiosity-driven Exploration by Self-supervised Prediction][paperlink]<sup>1<sup>
+[Curiosity-driven Exploration by Self-supervised Prediction][paperlink1]<sup>1<sup>
 
-[paperlink]:https://arxiv.org/abs/1705.05363
-
-
-[Exploration by Random Network Distillation][paperlink]<sup>2<sup>
-
-[paperlink]:https://arxiv.org/abs/1810.12894
+[paperlink1]:https://arxiv.org/abs/1705.05363
 
 
-[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink]<sup>3<sup>
+[Exploration by Random Network Distillation][paperlink2]<sup>2<sup>
 
-[paperlink]:https://arxiv.org/abs/2206.08332
+[paperlink2]:https://arxiv.org/abs/1810.12894
 
 
-[Curiosity in Hindsight][paperlink]<sup>4<sup>
+[BYOL-Explore: Exploration by Bootstrapped Prediction][paperlink3]<sup>3<sup>
 
-[paperlink]:https://arxiv.org/abs/2211.10515
+[paperlink3]:https://arxiv.org/abs/2206.08332
+
+
+[Curiosity in Hindsight][paperlink4]<sup>4<sup>
+
+[paperlink4]:https://arxiv.org/abs/2211.10515
 
 
 내적 동기 부여에 관한 강화학습 논문들을 살펴본다. 
@@ -159,6 +159,6 @@ Sparse reward 인 상황의 대표적인 문제 Montezuma's revenge를 굉장히
 
 
 * Structural Causal Model (SCM)
-[Counterfactually-Guided Policy Search][paperlink]<sup>5<sup>
+[Counterfactually-Guided Policy Search][paperlink5]<sup>5<sup>
 
-[paperlink]:https://arxiv.org/abs/1811.06272
+[paperlink5]:https://arxiv.org/abs/1811.06272
