@@ -23,8 +23,8 @@ sidebar-category:
         url: /program    
       - title: "Games"
         url: /game
-      - title: "University"
-        url: /university
+      - title: "Chat"
+        url: /chat
       - title: "Misc"
         url: /misc
 
