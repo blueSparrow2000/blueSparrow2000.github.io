@@ -1,11 +1,11 @@
 ---
-title: "University"
+title: "Chat"
 layout: archive
-permalink: /university
+permalink: /chat
 sidebar:
     nav: "sidebar-category"
 ---
 
 
-{% assign posts = site.categories.university %}
+{% assign posts = site.categories.chat %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
